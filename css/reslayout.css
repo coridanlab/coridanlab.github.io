@@ -1,0 +1,46 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.interest{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	border-top:1px solid #cc3333;
+	border-bottom:1px solid #cc3333;
+}
+
+.interest .image{
+	display: inline-block;
+	float:left;
+	margin: 10px 15px 10px 15px;
+	vertical-align: middle;
+	width:200px;
+	height:150px;
+	padding: 15px;
+	margin: 0px auto 0px auto;
+	border-radius: 10px;
+}
+
+.interest .title{
+	text-align: center;
+	font-size: 1.8em;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.interest .summary{
+	text-align: justify;
+	font-size: 1.2em;
+	margin-bottom: 6px;
+}
+
+
+
+.afterInterest{
+	clear:left;
+}
+

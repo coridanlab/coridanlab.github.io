@@ -1,0 +1,67 @@
+
+.container
+{
+    width: 300px;
+    height: 300px;
+}
+.column4 {
+    float: left;
+    position: relative;
+    width: 25%;
+    box-sizing: border-box;
+    display: inline;
+    
+    /*for demo purposes only */
+    
+/*  background: #f2f2f2;
+    border: 1px solid #e6e6e6;
+    box-sizing: border-box;*/
+}
+
+.column4-offset-1 {
+    left: 25%;
+}
+.column4-offset-2 {
+    left: 50%;
+}
+.column4-offset-3 {
+    left: 75%;
+}
+
+.column4-inset-1 {
+    left: -25%;
+}
+.column4-inset-2 {
+    left: -50%;
+}
+.column4-inset-3 {
+    left: -75%;
+}
+
+
+
+.column3 {
+    float: left;
+    position:relative;
+    width: 33%;
+    
+    /*for demo purposes only */
+    
+/*  background: #f2f2f2;
+    border: 1px solid #e6e6e6;
+    box-sizing: border-box;*/
+}
+
+.column3-offset-1 {
+    left: 33%;
+}
+.column3-offset-2 {
+    left: 66%;
+}
+
+.column3-inset-1 {
+    left: -33%;
+}
+.column3-inset-2 {
+    left: -33%;
+}

@@ -1,0 +1,177 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.labpi{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	border-top:1px solid #cc3333;
+	border-bottom:1px solid #cc3333;
+	min-height: 270px;
+}
+
+.labpi .image{
+	display: inline-block;
+	float:left;
+	margin: 10px 15px 10px 15px;
+	vertical-align: middle;
+	width:200px;
+	height:200px;
+	padding: 15px;
+	margin: 0px auto 0px auto;
+	border-radius: 10px;
+}
+
+.labpi .text{
+	margin-left: 5px;
+}
+
+.labpi .name{
+	text-align: right;
+	font-size: 1.6em;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.labpi .position{
+	text-align: right;
+	font-size: 1.4em;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.labpi .cv{
+	text-align: right;
+	font-size: 1.2em;
+	margin-bottom: 6px;
+}
+
+.labpi .interests{
+	text-align: right;
+	font-size: 1.2em;
+	margin-bottom: 6px;
+}
+
+.labpi .address{
+	text-align: right;
+	font-size: 1.2em;
+	margin-bottom: 6px;
+	margin-top: 12px;
+}
+
+.opening {
+	text-align: center;
+	width:70%;
+	font-size:1.6em;
+	border: 2px solid #000;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+
+.afterlabpi{
+	clear:left;
+}
+
+.memberArea{
+	width:850px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul.mem-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+ 
+ul.mem-list li {
+  display: inline-block;
+  height: 250px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 250px;
+  border: 1px solid rgba(0,0,0,0.5);
+  border-radius: 20px;
+}
+
+
+.alumniArea {
+  text-align: left;
+  width:70%;
+  font-size:1.8em;
+  text-decoration: underline;
+}
+
+ul.alumni-list li {
+  text-align: left;
+  font-size:1.4em;
+  text-decoration: none;
+}
+
+ul.mem-list img{
+	
+  border-radius: 20px;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 250px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 250px;
+  border-radius: 20px;
+}
+ 
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 20px;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 250px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 250px;
+  opacity: 0;
+  border-radius: 20px;
+}
+ 
+ul.mem-list li:hover span.text-content {
+  opacity: 1;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 250px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 250px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
